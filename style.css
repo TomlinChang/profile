@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+  color: rgb(10, 10, 10);
+  background-color: #dbf6e9 ;
+  font-family: 'Open Sans', sans-serif;
+}
+
+
+img {
+  border-radius: 50%
+}
+
+h1 {
+  color: rgb(10, 10, 10);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 600;
+  font-size: 90 px;
+  line-height: 2
+}
+
+h2 {
+  color: rgb(100, 100, 100)
+  font-size: 24px;
+}
+
+p {
+  font-size: 18px
+}
+
+a {
+  color: #0E66C2;
+  font-size: 20px
+}
+
+a:hover {
+  color: #8bcdcd;
+}
+
+.container {
+  background-color: rgb(240, 240, 240);
+  margin: 10px auto;
+  width: 50%;
+  padding: 5px 50px;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(10, 10, 10, 0.2);
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+
+.img-circle {
+  border-radius: 50%
+}
+
+.pic-shadows {
+  box-shadow: 0 4px 8px rgba(10, 10, 10, 0.2)
+}
+
+#banner {
+  background-image: url("https://c1.wallpaperflare.com/preview/544/534/376/background-green-grass-lawn.jpg");
+  background-size: cover;
+}
+
+.text-white {
+  color: white
+}
+
+.text-center {
+  text-align: center
+}
+
+.center-picture {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.list-inline > li {
+  display: inline-block;
+  padding: 0px 20px 0px 0px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
